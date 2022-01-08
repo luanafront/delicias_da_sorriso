@@ -7,3 +7,116 @@
 /* h1 {
     color: var(--Cor-primária)
 } */
+header {
+    background-color: var(--Cor-secundária);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 15px solid #FF7B51;
+}
+header h1{
+    font-size: 19px;
+    width: 100px;
+    text-align: center;
+    color:var(--Cor-terciária); 
+    margin-left: 10px;
+}
+.botaoHamburguer {
+    width: 25px;
+    height: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.fatia1, .fatia2, .fatia3 {
+    width: 100%;
+    height: 2px;
+    background-color: var(--Cor-terciária);
+
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: var(--Cor-primária);
+    min-height: 100vh
+}
+    .sobreNos {
+        color: var(--Cor-secundária)
+    }
+        .sobreNos__titulo {
+            margin: 0;
+            padding-left: 10px;
+        }
+        .sobreNos__conteudo {
+            margin: 0;
+            padding-left: 30px;
+            font-weight: bold;
+        }
+    .deliciasDeHoje {
+        background-color: var(--Cor-secundária);
+        border-radius: 30px 30px 0 0;
+        min-height: 100vh;
+        padding-top: 20px;
+    }
+        .deliciasDeHoje__titulo {
+            color: var(--Cor-terciária);
+            text-align: center;
+        }
+        .deliciasDeHoje__itens {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+            .deliciasDeHoje__item {
+                list-style: none;
+                margin-top: 20px;
+            }
+                .deliciasDeHoje__item--descricao {
+                    background-color: var(--Cor-quartenária);
+                    height: 350px;
+                    width: 80vw;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-radius: 20px;
+                }
+                    .deliciasDeHoje__item--titulo {
+                        color: var(--Cor-terciária);
+                    }
+                    .deliciasDeHoje__item--conteudo {
+                        background-color: var(--Cor-terciária);
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-around;
+                        border-radius: 20px;
+                    }
+                        .deliciasDeHoje__item--acao {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            width: 100%;
+                        }
+                            .deliciasDeHoje__item--preco {
+                                font-weight: bold;
+                                color: var(--Cor-quartenária)
+                            }
+                            .deliciasDeHoje__item--botao {
+                                background-color: var(--Cor-secundária);
+                                color: var(--Cor-terciária);
+                                font-size: 17px;
+                                border: 0;
+                                height: 40px;
+                                border-radius: 10px;
+                                cursor: pointer;
+                            }
